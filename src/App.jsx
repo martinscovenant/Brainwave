@@ -7,14 +7,14 @@ import Hero from "./components/Hero";
 import Pricing from "./components/Pricing";
 import Roadmap from "./components/Roadmap";
 import Services from "./components/Services";
-import Login from "./components/Login";
+// import Login from "./components/Login";
 
 const App = () => {
   return (
     <>
       <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
         <Header />
-        <Login />
+        {/* <Login /> */}
         <Hero />
         <Benefits />
         <Collaboration />
